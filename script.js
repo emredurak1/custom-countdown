@@ -15,7 +15,7 @@ const completeElInfo = document.getElementById('complete-info');
 const completeBtn = document.getElementById('complete-button');
 
 // Background Music Operations
-let musicActive = false;
+let musicActive = true;
 
 const runMusic = function () {
   icon.classList.replace('fa-volume-xmark', 'fa-volume-high');
